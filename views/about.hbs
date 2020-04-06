@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>About Page</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Top 10 Reasons to use React</h1>
+        <h2>{{title}}</h2>
+        <ol>
+            {{#each reasons}}
+            <li>{{this}}</li>
+            {{/each}}
+        </ol>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
